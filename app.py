@@ -112,11 +112,11 @@ if __name__ == '__main__':
                     sex = 2
                 age_at = msg_text[8:10]
                 if int(age_at) < 18:
-                    write_msg(user_id, 'ай ай ай, Выставлен минимальный возраст - 18 лет.')
+                    write_msg(user_id, 'ай яй яй, Выставлен минимальный возраст - 18 лет.')
                     age_at = 18
                 age_to = msg_text[11:14]
                 if int(age_to) >= 100:
-                    write_msg(user_id, 'Некрофил да? выставлено максимальное значение 99 лет.')
+                    write_msg(user_id, 'ой ёй ёй, выставлено максимальное значение 99 лет.')
                     age_to = 99
                 city = msg_text[14:len(msg_text)].lower()
                 # Ищем анкеты
